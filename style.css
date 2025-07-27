@@ -9,70 +9,70 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #0a0a0a, #1a1a1a, #2a2a2a);
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14.4px;
     line-height: 1.7;
     min-height: 100vh;
 }
 
 /* Main Container */
 main {
-    max-width: 900px;
-    margin: 3rem auto;
-    padding: 2rem;
+    max-width: 720px;
+    margin: 2.4rem auto;
+    padding: 1.6rem;
     background: #1e1e1e;
-    border-radius: 16px;
+    border-radius: 12.8px;
     border: 1px solid #333333;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
 }
 
 /* Header */
 header {
     text-align: center;
-    padding: 3rem 0;
+    padding: 2.4rem 0;
     background: #2a2a2a;
-    border-radius: 12px;
-    margin-bottom: 3rem;
+    border-radius: 9.6px;
+    margin-bottom: 2.4rem;
     border: 1px solid #404040;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 0.96rem;
     color: #b0b0b0;
 }
 
 /* Sections & Typography */
 section {
-    margin-bottom: 3rem;
-    padding: 1.5rem 0;
+    margin-bottom: 2.4rem;
+    padding: 1.2rem 0;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
     border-left: 4px solid #ffffff;
-    padding-left: 1rem;
+    padding-left: 0.8rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #f0f0f0;
-    margin: 2rem 0 1rem 0;
+    margin: 1.6rem 0 0.8rem 0;
     font-weight: 600;
 }
 
 /* About Section */
 #aboutMe {
     background: #2a2a2a;
-    padding: 2rem;
-    border-radius: 8px;
+    padding: 1.6rem;
+    border-radius: 6.4px;
     border-left: 4px solid #ffffff;
-    font-size: 1.2rem;
+    font-size: 0.96rem;
     line-height: 1.8;
     border: 1px solid #404040;
 }
@@ -84,11 +84,11 @@ ul {
 }
 
 ul li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.64rem;
     color: #e0e0e0;
     position: relative;
-    padding-left: 1.5rem;
-    font-size: 1.05rem;
+    padding-left: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 
@@ -106,38 +106,38 @@ ul li::before {
     justify-content: space-between;
     align-items: flex-start;
     background: #2a2a2a;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-top: 1rem;
+    padding: 1.2rem;
+    border-radius: 6.4px;
+    margin-top: 0.8rem;
     border: 1px solid #404040;
 }
 
 .dspace h4 {
-    font-size: 1.4rem;
+    font-size: 1.12rem;
     font-weight: 600;
 }
 
 .dspace p {
     color: #b0b0b0;
-    font-size: 1.1rem;
+    font-size: 0.88rem;
 }
 
 .contactinfo {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.6rem;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
 }
 
 .contactinfo a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.8rem 2rem;
+    font-size: 0.88rem;
+    padding: 0.64rem 1.6rem;
     background: #2a2a2a;
     border: 1px solid #404040;
-    border-radius: 25px;
+    border-radius: 20px;
     transition: all 0.3s ease;
 }
 
@@ -150,8 +150,8 @@ ul li::before {
 
 /* Responsive */
 @media (max-width: 768px) {
-    main { margin: 1rem; padding: 1.5rem; }
-    header h1 { font-size: 2.5rem; }
+    main { margin: 0.8rem; padding: 1.2rem; }
+    header h1 { font-size: 2rem; }
     .contactinfo { flex-direction: column; align-items: center; }
-    .dspace { flex-direction: column; gap: 0.5rem; }
+    .dspace { flex-direction: column; gap: 0.4rem; }
 }
